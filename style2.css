@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url("sunset.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    color: #4fb49b;
+    font-size:38px;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+}
+.container {
+    padding: 50px 67px;
+    min-height: 290px;
+    background: transparent;
+    border-radius: 15px;
+    border: 2px solid rgba(202, 115, 115, 0.5);
+    background-position: 1px 400px;
+    backdrop-filter: blur(4px);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px
+    
+    
+}
+
+label {
+    font-size: 15px;
+    
+}
+
+#selection_head1 {
+   
+    padding-right:35px;
+    border-radius: 5px;
+    margin: 12px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    font-size: small;
+    color: #afacac;
+    padding-bottom: px;
+}
+
+#selection_head2 {
+   
+    padding-right:255px;
+  
+    margin: 12px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #afacac;
+    font-size: small;
+    
+    
+}
+
+#To {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 12px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding-bottom: 1px;
+    padding-top:px;  
+}
+
+select{
+    text-align: center;
+}
+
+#number{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+   
+  
+    border: #8d8a8a;
+    
+    border-radius: 5px;
+    
+}
+
+
+.Answer
+{
+    padding-right: 148px;
+    font-size:20px;
+}
+
+#number1{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+  
+    border: #8d8a8a;
+    
+    border-radius: 5px;
+    
+}
+
+#Result
+{
+    display: inline-flex;
+    font-size: small;  
+    padding-top: 10px;
+    color: #afacac;
+  
+
+}
+
+#clear
+{
+    right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#Convert
+    {
+        right: 20px;
+        text-align: center;
+        padding-bottom: 10px;
+      
+    
+    
+}
+
+.button
+{
+    padding-top: 100px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px; 
+    border-radius: 5px ;
+    box-shadow: 0 8px 8px 0 rgba(51, 156, 182, 0.068), 0 6px 1px 0 rgba(140, 146, 58, 0.19);
+} 
+    
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 1 2px #5eaf72;
+  transform: translateY(4px);
+}
+
+span{
+    padding-left: 10px;
+    font-size: 18px;
+    color: #ffffff;
+
+
+}
